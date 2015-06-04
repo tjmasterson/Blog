@@ -1,7 +1,7 @@
 /* -- custom css for Bootstrap 3.x --*/
 
 /* move special fonts to HTML head for better performance */
-@import url(http://fonts.googleapis.com/css?family=Voltaire);
+@import url(https://fonts.googleapis.com/css?family=Voltaire);
 
 html,
 body {
@@ -60,6 +60,8 @@ img.grayscale {
   width:100%;
   padding-top:4%;
   text-align:center;
+  height: auto;
+  overflow: auto;
 }
 
 .navbar a {
